@@ -119,7 +119,7 @@ try
 {
            String JDBC_DRIVER = "com.mysql.jdbc.Driver"; 
            Class.forName("com.mysql.jdbc.Driver");
-           String DB_URL = "jdbc:mysql://localhost:3306/hiiqsoft_smart_home?autoReconnect=true";
+           String DB_URL = "jdbc:mysql://localhost:3306/soft_smart_home?autoReconnect=true";
            Connection conn = DriverManager.getConnection(DB_URL,"root","system");
            
           Statement smnt = conn.createStatement();
@@ -155,7 +155,7 @@ try
 {
            String JDBC_DRIVER = "com.mysql.jdbc.Driver"; 
            Class.forName("com.mysql.jdbc.Driver");
-           String DB_URL = "jdbc:mysql://localhost:3306/hiiqsoft_smart_home?autoReconnect=true";
+           String DB_URL = "jdbc:mysql://localhost:3306/soft_smart_home?autoReconnect=true";
            Connection conn = DriverManager.getConnection(DB_URL,"root","system");
            
           Statement smnt = conn.createStatement();
