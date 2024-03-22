@@ -154,16 +154,16 @@ Socket s;
             String s1 = cb2.getSelectedItem().toString();
             if(s1.equals("high"))
             {
-                ipad = "192.168.105.143";
+                ipad = "";//System IP
                 alll=6005;
             }
             
             if(s1.equals("medium"))
-            {ipad = "192.168.105.74";
+            {ipad = "";//System IP
                 alll=6006;
             }
             if(s1.equals("low"))
-            {ipad = "192.168.105.44";
+            {ipad = "";//System IP
                 alll=6007;
             }
             
